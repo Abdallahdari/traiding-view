@@ -616,40 +616,32 @@ video {
   top: 0px;
 }
 
+.top-7 {
+  top: 1.75rem;
+}
+
+.top-\[calc\(100\%\+3px\)\] {
+  top: calc(100% + 3px);
+}
+
 .top-full {
   top: 100%;
 }
 
-.top-4 {
-  top: 1rem;
+.top-\[calc\(100\%\+20px\)\] {
+  top: calc(100% + 20px);
 }
 
-.top-6 {
-  top: 1.5rem;
+.top-\[calc\(100\%\+6px\)\] {
+  top: calc(100% + 6px);
 }
 
-.top-10 {
-  top: 2.5rem;
+.top-\[calc\(100\%\+4px\)\] {
+  top: calc(100% + 4px);
 }
 
-.top-20 {
-  top: 5rem;
-}
-
-.top-14 {
-  top: 3.5rem;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.top-11 {
-  top: 2.75rem;
-}
-
-.top-9 {
-  top: 2.25rem;
+.top-\[calc\(100\%\+2px\)\] {
+  top: calc(100% + 2px);
 }
 
 .-z-10 {
@@ -658,6 +650,10 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-auto {
@@ -691,6 +687,26 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[70\%\] {
+  height: 70%;
+}
+
+.h-\[90\%\] {
+  height: 90%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
+.h-\[90vh\] {
+  height: 90vh;
 }
 
 .w-40 {
@@ -751,6 +767,10 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -776,10 +796,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-\[url\(\'\/images\/leo-look-768\.1d2a29fb4592122e55cd\.webp\'\)\] {
-  background-image: url('/images/leo-look-768.1d2a29fb4592122e55cd.webp');
 }
 
 .bg-gradient-to-r {
@@ -911,10 +927,19 @@ video {
   transition-duration: 150ms;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
 header{
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
+  background-image:url('./images/leo-look-768.1d2a29fb4592122e55cd.webp')
 }
 
 .btn{
@@ -949,11 +974,6 @@ header{
 
 .group:hover .group-hover\:visible {
   visibility: visible;
-}
-
-.group:hover .group-hover\:bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:opacity-100 {
