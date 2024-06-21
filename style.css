@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+header{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.btn{
+    clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
+    background: linear-gradient(75deg, #00bce6, #2962ff 50.31%, #d500f9);
+transtion: all 1s ; 
+}
+.btn:hover{
+    background: linear-gradient(75deg, #00bce6 10%, #2962ff 60.31%, #d500f9 100%); /* Shift gradient stops to the right */
+
+}
+
+
