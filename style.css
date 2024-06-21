@@ -5,6 +5,7 @@ header{
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
+background-image:url('images/leo-look-768.1d2a29fb4592122e55cd.webp')
 }
 .btn{
     clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
