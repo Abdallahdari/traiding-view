@@ -616,32 +616,8 @@ video {
   top: 0px;
 }
 
-.top-7 {
-  top: 1.75rem;
-}
-
-.top-\[calc\(100\%\+3px\)\] {
-  top: calc(100% + 3px);
-}
-
 .top-full {
   top: 100%;
-}
-
-.top-\[calc\(100\%\+20px\)\] {
-  top: calc(100% + 20px);
-}
-
-.top-\[calc\(100\%\+6px\)\] {
-  top: calc(100% + 6px);
-}
-
-.top-\[calc\(100\%\+4px\)\] {
-  top: calc(100% + 4px);
-}
-
-.top-\[calc\(100\%\+2px\)\] {
-  top: calc(100% + 2px);
 }
 
 .-z-10 {
@@ -687,26 +663,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[70\%\] {
-  height: 70%;
-}
-
-.h-\[90\%\] {
-  height: 90%;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[70vh\] {
-  height: 70vh;
-}
-
-.h-\[90vh\] {
-  height: 90vh;
 }
 
 .w-40 {
@@ -927,14 +883,6 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
 header{
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -960,11 +908,6 @@ header{
 .hover\:bg-gray-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-900:hover {
